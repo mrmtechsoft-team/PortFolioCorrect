@@ -1,4 +1,4 @@
-import { Outfit, Ovo } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -6,15 +6,13 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import { assets } from "@/asstes/assets";
 config.autoAddCss = false
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"]
-});
+const outfit = localFont({
+  src: "./fonts/MomoTrustDisplay-Regular.ttf", 
+  variable: "--font-momo-trust",
+  weight: "400",
+  style: "normal",
+})
 
-const ovo = Ovo({
-  subsets: ["latin"],
-  weight: ["400"]
-});
 
 
 export const metadata = {
@@ -24,10 +22,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth ">
-      <link rel="icon" href={assets.helog} />
+    <html lang="en" rel="icon" className="scroll-smooth ">
+      <link href={assets.helog} />
       <body id="dark-theme"
-        className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden `}
+        className={`${outfit.className} ${outfit.className} antialiased leading-8 overflow-x-hidden `}
       >
         {children}
       </body>

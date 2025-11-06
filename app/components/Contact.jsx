@@ -38,7 +38,7 @@ const Contact = ({ isDarkMode, setIsDarkMode }) => {
             <div className="py-8 lg:py-16 gap-y-3.5 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center">Contact Us</h2>
                 <p className="mb-8 lg:mb-16 font-light text-center sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
-                <form onSubmit={onSubmit} classNameName="space-y-8 ">
+                <form onSubmit={onSubmit} className="space-y-8 ">
                     <div >
                         <label htmlFor="email" className="block mb-2 gap-y-2.5 text-sm font-medium ">Your email</label>
                         <input type="email" id="email" name="email" className="shadow-sm  border border-gray-300 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="name@flowbite.com" required

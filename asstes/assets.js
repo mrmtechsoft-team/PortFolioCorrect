@@ -1,5 +1,6 @@
 import ajmat from "./ajmat.png"; 
 import headLog from "./headLog.png"
+import namaskar from "./namaskar.png"
 import logoRem from "./logoRem.png";
 import mrinal from "./mrinal.png"; 
 import sachin from "./sachin.png";
@@ -54,6 +55,7 @@ export const assets = {
     rightArrowWhite,
     aiml,
     education,
+    namaskar,
     rightArrowDark,
     ds,
     menuWhite,
