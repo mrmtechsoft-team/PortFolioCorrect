@@ -17,16 +17,14 @@ const About = () => {
 
       <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
         <div>
-          <Image src={assets.headLog} alt='' className='rounded-full w-100' />
+          <Image src={assets.logoRem} alt='' className='rounded-full w-70' />
         </div>
 
         <div className='flex-1'>
           <p className='mb-10 max-w-2xl font-Ovo'>
-            I’m a B.Tech (AI/ML) student at S.H.E.A.T., passionate about Data Science, Generative AI, and Web Development.
+            MRM is a leading technology service company based in Varanasi, dedicated to empowering businesses with innovative digital solutions. We specialize in website development, mobile app development, software solutions, and IT consulting to help businesses grow and stay ahead in the digital world.
 
-            📌 I hold a certificate in Data Science with Generative AI and have a solid foundation in Python programming, which I've been mastering over the past year. Alongside my academic journey, I actively teach Python and basic computer skills, helping others grow while reinforcing my own knowledge.
-
-            💻 I’m also a Front-End Web Developer, currently expanding my skills in Full-Stack Development with a goal to build innovative, real-world tech solutions.
+            With a team of skilled developers, designers, and digital strategists, MRM blends creativity with cutting-edge technology to deliver solutions that are not only visually appealing but also performance-driven and scalable. Whether you’re a startup aiming to build your online presence or an established brand looking to optimize your tech infrastructure, we ensure reliable, customized, and result-oriented services tailored to your unique goals.
           </p>
 
           {/* Info Cards */}
@@ -48,7 +46,7 @@ const About = () => {
                   className='w-7 mt-3 hidden dark:block'
                 />
 
-                <h3 className='my-4 font-semibold text-gray-700 dark:text-gray-200'>
+                <h3 className='my-4 font-semibold text-gray-700 dark:text-gray-500'>
                   {title}
                 </h3>
                 <p className='text-gray-600 dark:text-gray-400 text-sm'>
