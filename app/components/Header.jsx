@@ -13,7 +13,7 @@ const Header = (isDarkMode, setIsDakMode) => {
         transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
       >
 
-        <Image src={assets.logoRem} alt='' className=' rounded-full w-60' />
+        <Image src={assets.logoRem} alt='' className=' rounded-full w-60 mt-30' />
       </motion.div>
 
       <motion.div
