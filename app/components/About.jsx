@@ -13,7 +13,7 @@ const About = () => {
       className='w-full px-[12%] py-10 scroll-mt-20'
     >
       <h3 className='text-center text-lg mb-2 font-Ovo'>Introduction</h3>
-      <h2 className='text-center text-5xl font-Ovo'>About me</h2>
+      <h2 className='text-center text-5xl font-Ovo'>About us</h2>
 
       <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
         <div>
@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         <div className='flex-1'>
-          <p className='mb-10 max-w-2xl font-Ovo'>
+          <p className='mb-10 max-w-2xl text-center font-Ovo'>
             MRM is a leading technology service company based in Varanasi, dedicated to empowering businesses with innovative digital solutions. We specialize in website development, mobile app development, software solutions, and IT consulting to help businesses grow and stay ahead in the digital world.
 
             With a team of skilled developers, designers, and digital strategists, MRM blends creativity with cutting-edge technology to deliver solutions that are not only visually appealing but also performance-driven and scalable. Whether you’re a startup aiming to build your online presence or an established brand looking to optimize your tech infrastructure, we ensure reliable, customized, and result-oriented services tailored to your unique goals.
