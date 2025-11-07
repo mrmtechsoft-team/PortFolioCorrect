@@ -22,7 +22,7 @@ const Work = () => {
           Our Latest Work
         </h2>
         <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mt-4 font-Ovo">
-          Here are some of my latest projects that showcase our expertise in
+          Here are some of our latest projects that showcase our expertise in
           design, development, and innovation.
         </p>
       </div>
