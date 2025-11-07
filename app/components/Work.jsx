@@ -16,10 +16,10 @@ const Work = () => {
       {/* Section Title */}
       <div className="text-center mb-12">
         <h3 className="text-lg text-gray-500 dark:text-gray-400 font-Ovo">
-          My Portfolio
+            ⭐⭐⭐⭐⭐
         </h3>
         <h2 className="text-4xl md:text-5xl font-Ovo text-gray-800 dark:text-gray-800 mt-2">
-          My Latest Work
+          Our Latest Work
         </h2>
         <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mt-4 font-Ovo">
           Here are some of my latest projects that showcase our expertise in
