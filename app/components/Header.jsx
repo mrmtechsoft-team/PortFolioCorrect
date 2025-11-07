@@ -58,7 +58,7 @@ const Header = (isDarkMode, setIsDakMode) => {
         className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact" className='px-10 py-3 border  rounded-full  flex items-center gap-2'>Contact us<Image src={isDarkMode ?  assets.rightArrowDark1 : assets.rightArrowWhite1} alt='' className='w-4' /></a>
 
-        <a href="/Profile.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>Our Plans<Image src={isDarkMode ? assets.downloadIcon : ""} alt='' className='w-4' /></a>
+        <a href="#"  className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>Our Plans<Image src={isDarkMode ? assets.downloadIcon : ""} alt='' className='w-4' /></a>
       </motion.div>
     </div>
   )
