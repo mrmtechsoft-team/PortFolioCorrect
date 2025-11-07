@@ -40,7 +40,7 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
           <li><a className="font-Ovo" href="#top">Home</a></li>
           <li><a className="font-Ovo" href="#about">About us</a></li>
           <li><a className="font-Ovo" href="#services">Services</a></li>
-          <li><a className="font-Ovo" href="#work">My Work</a></li>
+          <li><a className="font-Ovo" href="#work">Our Work</a></li>
           <li><a className="font-Ovo" href="#Contact">Contact me</a></li>
         </ul>
 
